@@ -1,0 +1,55 @@
+
+.slider{
+  width: 900px;
+  overflow: hidden;
+  margin: 0 auto;
+  position: relative;
+
+}
+
+.slider-long{
+  width: 10000px;
+}
+
+.slider-initial{
+  float: left;
+  position: relative;
+}
+
+img{
+  display: block;
+}
+
+.image-right img{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  right: 0px;
+}
+
+.image-left img{
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 200px;
+  left: 0px;
+}
+
+.image-bottom{
+  width: 900px;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+}
+
+.seeker{
+  width: 30px;
+  height: 30px;
+  background: url('../images/sliderpos.png');
+  display: inline-block;
+}
+
+.seeker.active{
+  background: url('../images/sliderpos-active.png');
+}
